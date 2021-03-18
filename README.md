@@ -16,7 +16,7 @@ the default url: `http://localhost:3000`
 ## API Reference
 ### GET /users
 - return all users
-- `curl -X GET 'http://localhost:3000/users`
+- `curl -X GET 'http://localhost:3000/users'`
 ```
 [
   {
