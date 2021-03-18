@@ -36,7 +36,7 @@ userRouter.route('/')
                 } else {
                   res.statusCode = 200;
                   res.setHeader('Content-Type', 'application/json');
-                  res.json(results);
+                  res.json(results[0]);
                 }
               }
             )
