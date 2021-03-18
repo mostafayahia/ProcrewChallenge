@@ -1,7 +1,9 @@
 const express = require('express');
 const userRouter = express.Router();
-
+const bodyParser = require('body-parser');
 const connection = require('../database');
+
+userRouter.use(bodyParser.json());
 
 /* GET users listing. */
 userRouter.route('/')
